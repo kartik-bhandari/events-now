@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  margin: 0;
+  font-family: 'Plus Jakarta Sans', 'Segoe UI', 'Roboto', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: radial-gradient(circle at top, #f5f7ff 0%, #eef2ff 35%, #f8fafc 100%);
+  color: #0f172a;
+}
+
+#root {
+  min-height: 100vh;
+}
+
+::selection {
+  background: #312e81;
+  color: #ffffff;
+}
